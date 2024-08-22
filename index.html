@@ -32,6 +32,7 @@
             clifford: '#da373d',
             'color-primary': '#ABEF5F',
             'light-color' : 'rgba(171, 239, 95, 0.50)',
+            'light-color-btn' : 'rgba(171, 239, 95, 0.20)',
 
           }
         }
@@ -71,7 +72,7 @@
 
 <!-- for mobile right part -->
 
-<div class="dropdown lg:hidden md:hidden sm:hidden block mr-5">
+<div class="dropdown  lg:hidden md:hidden sm:hidden block  dropdown-left">
     <div tabindex="0" role="button" class="btn  btn-circle border-2 border-[#E9E9E9] text-xl bg-white text-[#737373]">
         <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +89,7 @@
     </div>
     <ul
       tabindex="0"
-      class="menu menu-sm dropdown-content  text-[#737373]  mr-14 ">
+      class="menu menu-sm dropdown-content   text-[#737373]  ">
       <li class="text-[#494949] font-extrabold"><a>Home</a></li>
       <li ><a>Services</a></li>
       <li><a>Portfolio</a></li>
@@ -237,6 +238,73 @@
    </div>
       </div>
 </section>
+
+<!-- latest section -->
+ <section  class="w-full m-auto p-1 mt-5">
+<div class="w-4/5 mx-auto mt-12 mb-20">
+    <div class=" flex  justify-center mb-6">
+        <button class="flex items-center bg-light-color-btn py-2 rounded-2xl px-3 mt-3 text-[#494949]"><i class="fa-solid fa-arrow-right-long"></i><span class="text-sm  font-bold">Explore our Latest works</span></button>
+    </div>
+    <h1 class="lg:text-5xl text-4xl font-bold  text-center text-[#212121] mb-5">
+        Our Latest Portfolio</h1>
+    <p class="py-4 text-center  text-[#494949] mb-6">
+        The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+    </p>
+
+<div class="grid lg:grid-rows-2 lg:grid-cols-4 grid-cols-1 gap-4">
+    <!-- first -->
+    <div class="border-2 border-[#E9E9E9] rounded-xl lg:col-span-3  ">
+        <div class="flex lg:flex-row  items-center gap-6 p-6 bg-white rounded-lg">
+            <!-- icon -->
+            <div class="">
+                <img  class="w-full" src="./assets/img1.png" alt="">
+            </div>
+            <!-- card-content -->
+            <div class="">
+<h4 class="text-[#494949] font-extrabold text-xl mb-4">Commercial</h4>
+<p class="text-[737373] text-base">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+<div class="flex items-center justify-start gap-2  h-10  
+  lg:w-36 md:w-36 sm:w-36 w-80 ">
+    <span class="text-[#212121] font-bold text-sm">View Details </span><div class="w-6 h-6 bg-[#ABEF5F] relative rounded-xl"> <i class="fa-solid fa-arrow-up-long absolute left-1 bottom-1 rotate-45 text-[#1C1C1C]"></i></div></div>
+            </div>
+           </div>
+    </div>
+    <!-- second -->
+    <div class="border-2 border-[#E9E9E9] rounded-xl p-6">
+        <img class="w-full h-[180px]" src="./assets/img2.png" alt="">
+    </div>
+    <!-- third -->
+    <div class="border-2 border-[#E9E9E9] rounded-xl p-6">
+        <img class="w-full" src="./assets/img3.png" alt="">
+    </div>
+
+    <!-- forth -->
+    <div class="border-2 border-[#E9E9E9] rounded-xl col-span-2">
+        <div class="flex items-center gap-6 p-6 bg-white rounded-lg">
+            <!-- icon -->
+            <div class="">
+                <img class="w-full" src="./assets/img4.png" alt="">
+            </div>
+            <!-- card-content -->
+            <div class="">
+<h4 class="text-[#494949] font-extrabold text-xl mb-4">Commercial</h4>
+<p class="text-[737373] text-base">The barn house captivates with <br> its blend of rustic charm and <br> modern. </p>
+<div class="flex items-center justify-start gap-2  h-10 
+  lg:w-36 md:w-36 sm:w-36 w-80 ">
+    <span class="text-[#212121] font-bold text-sm">View Details </span><div class="w-6 h-6 bg-[#ABEF5F] relative rounded-xl"> <i class="fa-solid fa-arrow-up-long absolute left-1 bottom-1 rotate-45 text-[#1C1C1C]"></i></div></div>
+            </div>
+           </div>
+    </div>
+    <!-- fifth -->
+    <div class="border-2 border-[#E9E9E9] rounded-xl p-6">
+        <img class="w-full" src="./assets/img5.png" alt="">
+    </div>
+</div>
+
+</div>
+
+
+ </section>
 
  </main>
 
