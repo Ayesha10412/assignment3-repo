@@ -251,58 +251,70 @@
         The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
     </p>
 
-<div class="grid lg:grid-rows-2 lg:grid-cols-4 grid-cols-1 gap-4">
+<div class="grid  lg:grid-cols-12  lg:gap-3 grid-cols-1 grid-rows-1 gap-4">
     <!-- first -->
-    <div class="border-2 border-[#E9E9E9] rounded-xl lg:col-span-3  ">
-        <div class="flex lg:flex-row  items-center gap-6 p-6 bg-white rounded-lg">
+    <div class="border-2 border-[#E9E9E9] rounded-xl lg:col-span-9 col-span-3 ">
+        <div class="flex lg:flex-row flex-col  items-center gap-6 p-6 bg-white rounded-lg">
             <!-- icon -->
             <div class="">
-                <img  class="w-full" src="./assets/img1.png" alt="">
+                <img  class="lg:w-full  w-[400px] h-[227px]" src="./assets/img1.png" alt="">
             </div>
             <!-- card-content -->
-            <div class="">
-<h4 class="text-[#494949] font-extrabold text-xl mb-4">Commercial</h4>
-<p class="text-[737373] text-base">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+            <div class=" lg:h-[227px]">
+<h4 class="text-[#494949] font-extrabold text-xl mt-4 mb-8">Commercial</h4>
+<p class="text-[737373] text-base lg:mb-4">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
 <div class="flex items-center justify-start gap-2  h-10  
   lg:w-36 md:w-36 sm:w-36 w-80 ">
-    <span class="text-[#212121] font-bold text-sm">View Details </span><div class="w-6 h-6 bg-[#ABEF5F] relative rounded-xl"> <i class="fa-solid fa-arrow-up-long absolute left-1 bottom-1 rotate-45 text-[#1C1C1C]"></i></div></div>
+    <span class="text-[#212121] font-bold text-sm lg:text-base">View Details </span><div class="w-6 h-6 bg-[#ABEF5F] relative rounded-xl"> <i class="fa-solid fa-arrow-up-long absolute left-1 bottom-1 rotate-45 text-[#1C1C1C]"></i></div></div>
             </div>
            </div>
     </div>
+
     <!-- second -->
-    <div class="border-2 border-[#E9E9E9] rounded-xl p-6">
-        <img class="w-full h-[180px]" src="./assets/img2.png" alt="">
+    <div class=" border-2 border-[#E9E9E9] rounded-xl p-6 lg:col-span-3 col-span-3 ">
+        <img class="w-full h-[227px] " src="./assets/img2.png" alt="">
     </div>
+
+    <!-- for mobile view -->
+    <div class=" border-2 border-[#E9E9E9] rounded-xl p-6 col-span-3  order-3 lg:hidden">
+        <img class="w-full h-[227px] " src="./assets/img5.png" alt="">
+    </div>
+
     <!-- third -->
-    <div class="border-2 border-[#E9E9E9] rounded-xl p-6">
-        <img class="w-full" src="./assets/img3.png" alt="">
+    <div class=" border-2 border-[#E9E9E9]rounded-xl p-6 lg:col-span-3 lg:order-3 col-span-3 order-5 ">
+      <div >
+        <img class="lg:w-full w-[400px] h-[227px]" src="./assets/img3.png" alt="">
+      </div>
     </div>
 
     <!-- forth -->
-    <div class="border-2 border-[#E9E9E9] rounded-xl col-span-2">
-        <div class="flex items-center gap-6 p-6 bg-white rounded-lg">
+    <div class=" border-2 border-[#E9E9E9] rounded-xl lg:col-span-6 col-span-3 order-4">
+        <div class=" flex  lg:flex-row flex-col items-center gap-6 p-6 bg-white rounded-lg">
             <!-- icon -->
             <div class="">
-                <img class="w-full" src="./assets/img4.png" alt="">
+                <img class="lg:w-full w-[400px] h-[227px]" src="./assets/img4.png" alt="">
             </div>
             <!-- card-content -->
-            <div class="">
-<h4 class="text-[#494949] font-extrabold text-xl mb-4">Commercial</h4>
-<p class="text-[737373] text-base">The barn house captivates with <br> its blend of rustic charm and <br> modern. </p>
+            <div class=" lg:mr-0 mr-14">
+<h4 class="text-[#494949] font-extrabold text-xl mt-3 mb-3">Commercial</h4>
+<p class="text-[737373] text-base mb-4">The barn house captivates  with <br> its blend  of rustic charm and <br> modern. </p>
 <div class="flex items-center justify-start gap-2  h-10 
   lg:w-36 md:w-36 sm:w-36 w-80 ">
-    <span class="text-[#212121] font-bold text-sm">View Details </span><div class="w-6 h-6 bg-[#ABEF5F] relative rounded-xl"> <i class="fa-solid fa-arrow-up-long absolute left-1 bottom-1 rotate-45 text-[#1C1C1C]"></i></div></div>
+    <span class="text-[#212121] font-bold text-sm lg:text-base">View Details </span><div class="w-6 h-6 bg-[#ABEF5F] relative rounded-xl"> <i class="fa-solid fa-arrow-up-long absolute left-1 bottom-1 rotate-45 text-[#1C1C1C]"></i></div></div>
             </div>
            </div>
     </div>
+
     <!-- fifth -->
-    <div class="border-2 border-[#E9E9E9] rounded-xl p-6">
-        <img class="w-full" src="./assets/img5.png" alt="">
+    <div class=" border-2 border-[#E9E9E9] rounded-xl p-6 col-span-3 lg:order-5  order-6 ">
+        <img class="w-full h-[227px] " src="./assets/img5.png" alt="">
     </div>
-</div>
 
 </div>
 
+</div>
+
+<!-- border-2 border-[#E9E9E9] -->
 
  </section>
 
